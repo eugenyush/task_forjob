@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="section-headr section-outer">
+        <div class="section-inner">
+            <div class="section-headr-menu">
+                <div class="section-headr-menu_logo"><img src="./img/barcelona-metro-logo.png" alt=""></div>
+                <ul class="section-headr-menu_nav">
+                    <li><a href="#">Main</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+                <div class="section-headr-number">
+                        +544 3490 000 <br>
+                     <span>Звони скорее!</span>
+                </div>
+            </div>
+            <div class="section-headr-result">
+                Найдено 349 котов
+            </div>
+        </div>
+    </section>
+
+    <section class="section-content section-outer">
+        <div class="section-inner">
+            <div class="section-content-sort">
+                <div class="section-content-sort_title">Сортировать по:</div>
+                <div class="section-content-sort_list">
+                    <select class="elem_filter_select">
+                        <option value="">Сортировать</option>
+                        <option value="price">Цена</option>
+                        <option value="age">Возрасту</option>
+                      </select>
+                      <select class="elem_filter_select_dis">
+                        <option value="incr">Возрастанию</option>
+                        <option value="decr">Убыванию</option>
+                      </select>
+                </div>
+            </div>
+            <div class="section-content-choice filtered_container">
+                <div class="section-content-choice_kart filtered_item" data-price="30000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon1.png" alt="">
+                        <span class="icon-discount">-40%</span>
+                    <img src="./img/like1.png" alt="" class="icon-like"></div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">30 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main">Кпить</a>
+                    </div>
+                </div>
+
+                <div class="section-content-choice_kart filtered_item" data-price="40000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon2.png" alt="">
+                        <img src="./img/like2.png" alt="" class="icon-like"></div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">40 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main btn-black">Продан</a>
+                    </div>
+                </div>
+
+                <div class="section-content-choice_kart filtered_item" data-price="20000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon3.png" alt="">
+                        <img src="./img/like1.png" alt="" class="icon-like"></a>
+                    </div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">20 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main">Кпить</a>
+                    </div>
+                </div>
+
+                <div class="section-content-choice_kart filtered_item" data-price="25000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon2.png" alt="">
+                        <img src="./img/like1.png" alt="" class="icon-like"></a>
+                     </div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">25 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main">Кпить</a>
+                    </div>
+                </div>
+
+                <div class="section-content-choice_kart filtered_item" data-price="30000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon3.png" alt="">
+                        <span class="icon-discount">-40%</span>
+                        <img src="./img/like1.png" alt="" class="icon-like"></a>
+                    </div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">30 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main">Кпить</a>
+                    </div>
+                </div>
+
+                <div class="section-content-choice_kart filtered_item" data-price="10000" data-age="4">
+                    <div class="icon"><img src="./img/kartIcon1.png" alt="">
+                        <img src="./img/like2.png" alt="" class="icon-like"></a>
+                    </div>
+                    <div class="title">Кот полосатый</div>
+                    <ul class="description">
+                        <li>Коричневый окрас</li>
+                        <li><span>2 мес.</span> Возрост</li>
+                        <li><span>4</span> Кол-во лап</li>
+                    </ul>
+                    <div class="price">10 000 руб.</div>
+                    <div class="btn">
+                        <a href="#" class="btn-main btn-black">Продан</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section-content-add">
+                <div class="btn">
+                    <a href="" class="btn-main">Показать ещё 20</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-outer section-footer">
+        <div class="section-inner">
+            <div class="section-footer-text">
+                <div class="section-footer-text_title">Успей купить!</div>
+                <div class="section-footer-text_subtitle">Подпишись и успей словить все акции</div>
+            </div>
+            <div class="section-footer-forma">
+                <form action="" id="subscription">
+                    <input type="email" placeholder="Email" required> 
+                    <button class="btn-form">Подписаться</button>
+                    <label class="container">Подписаться на новости 
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<div id = "toTop">^</div>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="main.js"></script>
+
+</body>
+</html>
